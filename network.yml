@@ -1,4 +1,4 @@
----
-
-- roles:
+- name: network configuration
+  hosts: all
+  roles:
   - { role: network }
